@@ -80,9 +80,9 @@
   --card-foreground: var(--color-slate-950);
   --popover: var(--color-white);
   --popover-foreground: var(--color-slate-950);
-  --primary: var(--color-blue-700);
+  --primary: #FF00D6;
   --primary-foreground: var(--color-slate-50);
-  --primary-accent: var(--color-blue-700);
+  --primary-accent: #FF00D6;
   --secondary: var(--color-fuchsia-700);
   --secondary-foreground: var(--color-slate-50);
   --secondary-accent: var(--color-fuchsia-700);
@@ -121,9 +121,9 @@
   --card-foreground: var(--color-slate-50);
   --popover: var(--color-slate-800);
   --popover-foreground: var(--color-slate-50);
-  --primary: var(--color-blue-700);
+  --primary: #FF00D6;
   --primary-foreground: var(--color-slate-50);
-  --primary-accent: var(--color-blue-400);
+  --primary-accent: #FF00D6;
   --secondary: var(--color-fuchsia-700);
   --secondary-foreground: var(--color-slate-50);
   --secondary-accent: var(--color-fuchsia-400);
@@ -146,7 +146,7 @@
   /* sidebars variables */
   --sidebar-background: var(--color-slate-900);
   --sidebar-foreground: var(--color-slate-50);
-  --sidebar-primary: var(--color-blue-700);
+  --sidebar-primary: #FF00D6;
   --sidebar-primary-foreground: var(--color-slate-50);
   --sidebar-accent: var(--color-slate-800);
   --sidebar-accent-foreground: var(--color-slate-100);

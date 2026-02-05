@@ -1,0 +1,22 @@
+---
+import { languages } from "../i18n/ui";
+import { getLangFromUrl } from "../i18n/utils";
+// import { Dropdown, DropdownTrigger, DropdownContent, DropdownItem } from "@/components/starwind/dropdown";
+// import { Button } from "@/components/starwind/button";
+
+const lang = getLangFromUrl(Astro.url);
+const currentLangName = languages[lang];
+---
+
+<div class='flex space-x-2 text-xs uppercase font-bold'>
+	{
+		Object.entries(languages).map(([code, name]) => (
+			<a
+				href={code === "es" ? "/" : `/${code}/`}
+				class={`px-2 py-1 rounded transition-colors ${lang === code ? "bg-primary text-primary-foreground" : "hover:bg-muted"}`}
+			>
+				{code}
+			</a>
+		))
+	}
+</div>
